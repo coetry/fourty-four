@@ -1,6 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-export default (req, res) => {
+export default function(req, res) {
   res.statusCode = 200
-  res.json({ name: 'John Doe' })
+  res.json({ name: 'Fourty Four' })
 }
